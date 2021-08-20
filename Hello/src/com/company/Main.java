@@ -23,6 +23,6 @@ class Car1 {
 public class Main {
     public static void main(String[] args) {
         Car1 mycar = new Car1("쏘나타", 2018, "검은색", 250); // 생성자의 호출
-        System.out.println(mycar.getModel());// 생성자에 의해 초기화 되었는지를 확인함.
+        System.out.println(mycar.getModel());// 생성자에 의해 초기화 되었는지를 확인함. 
     }
 }
