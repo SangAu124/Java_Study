@@ -15,15 +15,14 @@ class Car {
         this.currentSpeed = 0;
     }
 
-    public String getModel() {
-        return this.modelYear + "년식" + this.modelName + " " + this.color;
+    public String  getModel(){
+        return this.modelYear + "년식 " + this.modelName + " " + this.color;
     }
-
 }
 
 public class Main {
     public static void main(String[] args) {
-        Car myCar = new Car("아반떼", 2016, "흰색", 200);
-        System.out.println(myCar.getModel());
+        Car mycar = new Car("쏘나타", 2018, "검은색", 250); // 생성자의 호출
+        System.out.println(mycar.getModel());// 생성자에 의해 초기화 되었는지를 확인함.
     }
 }
