@@ -23,6 +23,7 @@ class Car1 {
 public class Main {
     public static void main(String[] args) {
         Car1 mycar = new Car1("쏘나타", 2018, "검은색", 250); // 생성자의 호출
-        System.out.println(mycar.getModel());// 생성자에 의해 초기화 되었는지를 확인함. 
+        System.out.println(mycar.getModel());// 생성자에 의해 초기화 되었는지를 확인함.
+        // 매개변수를 가지는 생성자를 하나 이상 정의한 수 기본 생성자를 호출하면 오류가 발생한다.
     }
 }
