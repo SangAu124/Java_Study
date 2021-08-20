@@ -1,2 +1,2 @@
 # Java_Study
-  TCPSchool을 보고 자바를 공부하는 저장소입니다.
+ TCPSHCOOL 을 보고 java를 정리하는 저장소 입니다.
