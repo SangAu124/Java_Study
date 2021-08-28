@@ -26,5 +26,7 @@ public class main {
         else {
             System.out.println(calculator.div(a, b));
         }
+        
+
     }
 }
