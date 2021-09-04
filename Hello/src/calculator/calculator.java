@@ -14,3 +14,5 @@ public class calculator {
         return ((a / b) + ( a % b));
     }
 }
+
+
