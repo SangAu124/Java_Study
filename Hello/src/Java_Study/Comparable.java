@@ -1,5 +1,6 @@
 package Java_Study;
 
+/*
 public class Comparable {
 }
 
@@ -35,4 +36,4 @@ public class Comparable01{
 
         System.out.println(car01.compareTo((car02)));
     }
-}
+}*/
